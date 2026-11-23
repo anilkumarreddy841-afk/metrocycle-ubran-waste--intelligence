@@ -1,0 +1,6 @@
+{
+  "name": "MetroCycle Urban Waste Intelligence",
+  "description": "Predictive analytics for urban waste overflow risk assessment, priority-based collection planning, GIS routing, and municipal fleet operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

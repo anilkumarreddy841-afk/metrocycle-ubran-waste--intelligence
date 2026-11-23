@@ -1,0 +1,5 @@
+{
+    "furgleai.severityThreshold": "low",
+    "furgleai.commitBlockingSeverity": "critical",
+    "furgleai.baseBranch": "main"
+}

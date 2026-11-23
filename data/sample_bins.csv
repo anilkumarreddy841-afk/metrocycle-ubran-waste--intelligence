@@ -1,0 +1,4 @@
+bin_code,location,latitude,longitude,zone_name,capacity,waste_type,current_fill_level
+BIN-CM-105,Spice Pavilion South,12.9754,77.5902,Central Market District,660,Organic,77
+BIN-TP-305,Tech Plaza Metro Gate,12.9633,77.6129,Tech Park Corridor,360,Recyclable,42
+BIN-OT-405,Old Bazaar North Gate,12.9801,77.5830,Old Town Heritage Quarter,360,General,84
