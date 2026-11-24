@@ -6,8 +6,10 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   const isProd = process.env.NODE_ENV === 'production';
+  const deployTarget = process.env.DEPLOY_TARGET || 'render'; // 'github' or 'render'
+  const basePath = isProd && deployTarget === 'github' ? '/metrocycle-ubran-waste--intelligence/' : '/';
   return {
-    base: isProd ? '/metrocycle-ubran-waste--intelligence/' : '/',
+    base: basePath,
     plugins: [
       react(),
       tailwindcss(),
